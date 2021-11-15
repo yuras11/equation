@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <cmath>
 using namespace std;
 class Equation
 {
@@ -10,9 +11,10 @@ private:
 public:
     Equation(int a, int b, int c);
     int discriminant();
-    int no_real_root();
-    int count_first_root();
-    int count_second_root();
-    int count_the_only_root();
+    void no_real_root();
+    double count_first_root(Equation f);
+    double count_second_root(Equation f);
+    double count_the_only_root(Equation f);
+
 };
 void solution();

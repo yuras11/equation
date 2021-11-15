@@ -128,6 +128,30 @@ equation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/build
 .PHONY : equation/fast
 
+class.obj: class.cpp.obj
+.PHONY : class.obj
+
+# target to build an object file
+class.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/class.cpp.obj
+.PHONY : class.cpp.obj
+
+class.i: class.cpp.i
+.PHONY : class.i
+
+# target to preprocess a source file
+class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/class.cpp.i
+.PHONY : class.cpp.i
+
+class.s: class.cpp.s
+.PHONY : class.s
+
+# target to generate assembly for a file
+class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\equation.dir\build.make CMakeFiles/equation.dir/class.cpp.s
+.PHONY : class.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... equation
+	@echo ... class.obj
+	@echo ... class.i
+	@echo ... class.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

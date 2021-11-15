@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/k/CLionProjects/equation/class.cpp">
+			<Option target="equation"/>
+		</Unit>
+		<Unit filename="C:/Users/k/CLionProjects/equation/class.h">
+			<Option target="equation"/>
+		</Unit>
 		<Unit filename="C:/Users/k/CLionProjects/equation/main.cpp">
 			<Option target="equation"/>
 		</Unit>

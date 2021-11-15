@@ -3,4 +3,4 @@ project(equation)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(equation main.cpp)
+add_executable(equation class.cpp main.cpp class.h)
